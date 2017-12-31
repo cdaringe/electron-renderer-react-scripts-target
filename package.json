@@ -1,15 +1,30 @@
 {
   "name": "electron-renderer-react-scripts-target",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "automatically make react-scripts compile to work within an electron-renderer process",
   "main": "index.js",
   "scripts": {
     "install": "react-scripts-webpack-config-editor index.js"
   },
-  "keywords": ["cdaringe","react-scripts","electron","electron-renderer","target"],
+  "keywords": [
+    "cdaringe",
+    "react-scripts",
+    "electron",
+    "electron-renderer",
+    "target"
+  ],
   "author": "cdaringe",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react-scripts-webpack-config-editor": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdaringe/electron-renderer-react-scripts-target.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdaringe/electron-renderer-react-scripts-target/issues"
+  },
+  "homepage": "https://github.com/cdaringe/electron-renderer-react-scripts-target#readme"
 }
