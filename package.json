@@ -1,6 +1,6 @@
 {
   "name": "electron-renderer-react-scripts-target",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "automatically make react-scripts compile to work within an electron-renderer process",
   "main": "index.js",
   "scripts": {
