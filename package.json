@@ -1,8 +1,9 @@
 {
   "name": "electron-renderer-react-scripts-target",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "automatically make react-scripts compile to work within an electron-renderer process",
   "main": "index.js",
+  "bin": "bin.js",
   "scripts": {
     "install": "react-scripts-webpack-config-editor index.js"
   },
@@ -16,6 +17,7 @@
   "author": "cdaringe",
   "license": "MIT",
   "dependencies": {
+    "debug": "^3.1.0",
     "react-scripts-webpack-config-editor": "^1.0.0"
   },
   "devDependencies": {},
